@@ -1,6 +1,6 @@
 ################################################################################
 ##
-## STUDY PROJECT BY: WANDERSON M.
+## STUDY PROJECT BY: Akshat K Singh.
 ## PROJECT MADE WITH: Qt Designer and PySide2
 ## V: 0.1
 ##
