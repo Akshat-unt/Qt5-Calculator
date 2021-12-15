@@ -114,7 +114,7 @@ class Ui(QtWidgets.QMainWindow):
             self.ui.lineEdit_values.setText('')
             QtCore.QTimer.singleShot(100, lambda: self.ui.lineEdit_values.setPlaceholderText("Created"))
             QtCore.QTimer.singleShot(1300, lambda: self.ui.lineEdit_values.setPlaceholderText("by:"))
-            QtCore.QTimer.singleShot(2100, lambda: self.ui.lineEdit_values.setPlaceholderText("Wanderson"))
+            QtCore.QTimer.singleShot(2100, lambda: self.ui.lineEdit_values.setPlaceholderText("Akshat"))
             QtCore.QTimer.singleShot(3500, lambda: self.ui.lineEdit_values.setPlaceholderText("with"))
             QtCore.QTimer.singleShot(4500, lambda: self.ui.lineEdit_values.setPlaceholderText("Python"))
             QtCore.QTimer.singleShot(5500, lambda: self.ui.lineEdit_values.setPlaceholderText("and"))
