@@ -211,10 +211,9 @@ class Ui(QtWidgets.QMainWindow):
 
         if s:
             self.ui.lineEdit_values.setText(text + value)
-            self.clearRepeat()
         else:
             self.ui.lineEdit_values.setText(text + clear)
-            self.clearRepeat()
+        self.clearRepeat()
         self.ui.lineEdit_values.setFocus()
 
     # CLEAR MULTIPLES DOTs
@@ -256,7 +255,7 @@ class Ui(QtWidgets.QMainWindow):
 
     def keyPressEvent(self, event):
         # PRESS ENTER
-        if event.key() == Qt.Key_Enter or event.key() == Qt.Key_Return:
+        if event.key() in [Qt.Key_Enter, Qt.Key_Return]:
             self.returnValue()
             self.ui.lineEdit_values.setFocus()
             event.accept()
